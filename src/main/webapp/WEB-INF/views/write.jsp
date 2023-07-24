@@ -28,15 +28,15 @@
     </div>
 </nav>
 <div class="container mt-3">
-    <form action="/action_page.php">
+    <form action="/product" method="post" enctype="application/x-www-form-urlencoded">
         <div class="mb-3 mt-3">
-            <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+            <input type="text" class="form-control" placeholder="Enter name" value="" name="name">
         </div>
         <div class="mb-3">
-            <input type="price" class="form-control" id="price" placeholder="Enter price" name="price">
+            <input type="text" class="form-control" placeholder="Enter price" value="" name="price">
         </div>
         <div class="mb-3">
-            <input type="qty" class="form-control" id="qty" placeholder="Enter qty" name="qty">
+            <input type="text" class="form-control" placeholder="Enter qty" value="" name="qty">
         </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>
